@@ -1,0 +1,15 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/3d.obj-87ff2b897ffad9f8a5579d42908acbd6.mesh"
+
+[deps]
+
+files=[ "res://.import/3d.obj-87ff2b897ffad9f8a5579d42908acbd6.mesh" ]
+
+source_md5="4f5df9dd2f4b9f0c9608eb207924cc84"
+
+[params]
+
+generate_tangents=true

@@ -1,0 +1,15 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/chr_gumi.obj-1d835f94184965c25bc6f9cb533f48e9.mesh"
+
+[deps]
+
+files=[ "res://.import/chr_gumi.obj-1d835f94184965c25bc6f9cb533f48e9.mesh" ]
+
+source_md5="e2c7bcdf63f16e8df982eb9195b56528"
+
+[params]
+
+generate_tangents=true
