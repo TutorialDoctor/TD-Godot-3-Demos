@@ -713,8 +713,8 @@ _sections_unfolded = [ "LOD", "Transform", "material" ]
 [node name="Camera" type="Camera" parent="." index="6"]
 
 transform = Transform( 0.997869, -0.00498234, 0.065068, -0.00370626, 0.991146, 0.132726, -0.0651537, -0.132684, 0.989014, 1.20349, 3.55962, 10.5322 )
-keep_aspect = 1
-vaspect = true
+keep_aspect = 0
+vaspect = false
 cull_mask = 1048575
 environment = null
 h_offset = 0.205
