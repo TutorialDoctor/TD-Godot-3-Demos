@@ -1,8 +1,9 @@
-[gd_scene load_steps=11 format=2]
+[gd_scene load_steps=12 format=2]
 
-[ext_resource path="res://Models/3d.obj" type="ArrayMesh" id=1]
-[ext_resource path="res://Models/9208c981b746b6c51cfb9297a09d0d34--texture-mapping-photoshop-texture.jpg" type="Texture" id=2]
-[ext_resource path="res://Models/Mixamo/Ninja Idle/SpacePirate_M.material" type="Material" id=3]
+[ext_resource path="res://Scripts/Rotate.gd" type="Script" id=1]
+[ext_resource path="res://Models/3d.obj" type="ArrayMesh" id=2]
+[ext_resource path="res://Models/9208c981b746b6c51cfb9297a09d0d34--texture-mapping-photoshop-texture.jpg" type="Texture" id=3]
+[ext_resource path="res://Models/Mixamo/Ninja Idle/SpacePirate_M.material" type="Material" id=4]
 
 [sub_resource type="ImageTexture" id=1]
 
@@ -35,7 +36,7 @@ params_billboard_mode = 0
 params_grow = false
 params_use_alpha_scissor = false
 albedo_color = Color( 1, 1, 1, 1 )
-albedo_texture = ExtResource( 2 )
+albedo_texture = ExtResource( 3 )
 metallic = 0.0
 metallic_specular = 0.5
 metallic_texture_channel = 0
@@ -228,7 +229,7 @@ surfaces/0 = {
 "blend_shape_data": [  ],
 "format": 98295,
 "index_count": 81579,
-"material": ExtResource( 3 ),
+"material": ExtResource( 4 ),
 "name": "SpacePirate_M",
 "primitive": 4,
 "skeleton_aabb": [  ],
@@ -609,6 +610,8 @@ tracks/51/keys = PoolRealArray( 0, 1, -4.36557e-11, 0, -1.02445e-08, 0.0144612, 
 
 [node name="Spatial" type="Spatial" index="0"]
 
+script = ExtResource( 1 )
+
 [node name="Ground" type="MeshInstance" parent="." index="0"]
 
 layers = 1
@@ -620,7 +623,7 @@ lod_min_distance = 0.0
 lod_min_hysteresis = 0.0
 lod_max_distance = 0.0
 lod_max_hysteresis = 0.0
-mesh = ExtResource( 1 )
+mesh = ExtResource( 2 )
 skeleton = NodePath("..")
 material/0 = SubResource( 3 )
 _sections_unfolded = [ "LOD", "Transform", "material" ]
@@ -637,7 +640,7 @@ lod_min_distance = 0.0
 lod_min_hysteresis = 0.0
 lod_max_distance = 0.0
 lod_max_hysteresis = 0.0
-mesh = ExtResource( 1 )
+mesh = ExtResource( 2 )
 skeleton = NodePath("..")
 material/0 = SubResource( 3 )
 _sections_unfolded = [ "LOD", "Transform", "material" ]
@@ -654,7 +657,7 @@ lod_min_distance = 0.0
 lod_min_hysteresis = 0.0
 lod_max_distance = 0.0
 lod_max_hysteresis = 0.0
-mesh = ExtResource( 1 )
+mesh = ExtResource( 2 )
 skeleton = NodePath("..")
 material/0 = SubResource( 3 )
 _sections_unfolded = [ "LOD", "Transform", "material" ]
@@ -671,7 +674,7 @@ lod_min_distance = 0.0
 lod_min_hysteresis = 0.0
 lod_max_distance = 0.0
 lod_max_hysteresis = 0.0
-mesh = ExtResource( 1 )
+mesh = ExtResource( 2 )
 skeleton = NodePath("..")
 material/0 = SubResource( 3 )
 _sections_unfolded = [ "LOD", "Transform", "material" ]
@@ -688,7 +691,7 @@ lod_min_distance = 0.0
 lod_min_hysteresis = 0.0
 lod_max_distance = 0.0
 lod_max_hysteresis = 0.0
-mesh = ExtResource( 1 )
+mesh = ExtResource( 2 )
 skeleton = NodePath("..")
 material/0 = SubResource( 3 )
 _sections_unfolded = [ "LOD", "Transform", "material" ]
@@ -705,7 +708,7 @@ lod_min_distance = 0.0
 lod_min_hysteresis = 0.0
 lod_max_distance = 0.0
 lod_max_hysteresis = 0.0
-mesh = ExtResource( 1 )
+mesh = ExtResource( 2 )
 skeleton = NodePath("..")
 material/0 = SubResource( 3 )
 _sections_unfolded = [ "LOD", "Transform", "material" ]
@@ -713,8 +716,8 @@ _sections_unfolded = [ "LOD", "Transform", "material" ]
 [node name="Camera" type="Camera" parent="." index="6"]
 
 transform = Transform( 0.997869, -0.00498234, 0.065068, -0.00370626, 0.991146, 0.132726, -0.0651537, -0.132684, 0.989014, 1.20349, 3.55962, 10.5322 )
-keep_aspect = 0
-vaspect = false
+keep_aspect = 1
+vaspect = true
 cull_mask = 1048575
 environment = null
 h_offset = 0.205
@@ -763,16 +766,17 @@ __meta__ = {
 
 environment = SubResource( 5 )
 
-[node name="Spatial" type="Spatial" parent="." index="9"]
+[node name="Lady" type="Spatial" parent="." index="9"]
 
 editor/display_folded = true
 transform = Transform( 2.2819, 0, -2.71946, 0, 3.55, 0, 2.71946, 0, 2.2819, 0, 0, 0 )
+_sections_unfolded = [ "Transform" ]
 
-[node name="Scene Root" type="Spatial" parent="Spatial" index="0"]
+[node name="Scene Root" type="Spatial" parent="Lady" index="0"]
 
 editor/display_folded = true
 
-[node name="Skeleton" type="Skeleton" parent="Spatial/Scene Root" index="0"]
+[node name="Skeleton" type="Skeleton" parent="Lady/Scene Root" index="0"]
 
 bones/0/name = "Hips"
 bones/0/parent = -1
@@ -1100,7 +1104,7 @@ bones/64/rest = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -0.00198939, 0.000453, 0.0
 bones/64/enabled = true
 bones/64/bound_childs = [  ]
 
-[node name="Mesh" type="MeshInstance" parent="Spatial/Scene Root/Skeleton" index="0"]
+[node name="Mesh" type="MeshInstance" parent="Lady/Scene Root/Skeleton" index="0"]
 
 layers = 1
 material_override = null
@@ -1115,7 +1119,7 @@ mesh = SubResource( 6 )
 skeleton = NodePath("..")
 material/0 = null
 
-[node name="AnimationPlayer" type="AnimationPlayer" parent="Spatial/Scene Root" index="1"]
+[node name="AnimationPlayer" type="AnimationPlayer" parent="Lady/Scene Root" index="1"]
 
 playback_process_mode = 1
 playback_default_blend_time = 0.0

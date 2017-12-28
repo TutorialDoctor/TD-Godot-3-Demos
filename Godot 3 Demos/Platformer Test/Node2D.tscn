@@ -85,7 +85,7 @@ position = Vector2( -5.17072, -4.70895 )
 scale = Vector2( 0.12539, 0.0990613 )
 frames = SubResource( 2 )
 animation = "run"
-frame = 2
+frame = 1
 playing = true
 __meta__ = {
 "_edit_lock_": true
@@ -93,6 +93,7 @@ __meta__ = {
 
 [node name="Ground" type="StaticBody2D" parent="." index="2"]
 
+editor/display_folded = true
 position = Vector2( 257.058, 592.04 )
 scale = Vector2( 1, 1.20843 )
 input_pickable = false
@@ -102,6 +103,9 @@ constant_linear_velocity = Vector2( 0, 0 )
 constant_angular_velocity = 0.0
 friction = 1.0
 bounce = 0.0
+__meta__ = {
+"_edit_lock_": true
+}
 
 [node name="Sprite" type="Sprite" parent="Ground" index="0"]
 
