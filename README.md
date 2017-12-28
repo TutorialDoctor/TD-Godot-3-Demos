@@ -15,7 +15,7 @@ https://github.com/BastiaanOlij/godot3_test_projects
 https://github.com/kidscancode/Godot3_tanks
 
 **Flappy Birds**
-https://github.com/microlabig/FlappyBirds_godot3_0
+~~https://github.com/microlabig/FlappyBirds_godot3_0~~
 
 **Demo for learning**
 https://github.com/gattila/gamedemo
