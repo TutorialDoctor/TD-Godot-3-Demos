@@ -5,18 +5,18 @@ This is a sequel to the Godot 2.x repository found [here](https://github.com/Tut
 
 ## Other Demos
 
-Dodge the Creeps
+**Dodge the Creeps**
 https://github.com/kidscancode/Godot3_dodge
 
-## Test Projects
+**Test Projects**
 https://github.com/BastiaanOlij/godot3_test_projects
 
-## 2S Tank Battle
+**2D Tank Battle**
 https://github.com/kidscancode/Godot3_tanks
 
-## Flappy Birds
+**Flappy Birds**
 https://github.com/microlabig/FlappyBirds_godot3_0
 
-## Demo for learning
+**Demo for learning**
 https://github.com/gattila/gamedemo
 
