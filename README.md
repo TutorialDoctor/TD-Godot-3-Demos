@@ -20,3 +20,5 @@ https://github.com/kidscancode/Godot3_tanks
 **Demo for learning**
 https://github.com/gattila/gamedemo
 
+**3D racing game**
+https://github.com/Zireael07/FreeRoamRoguelikeRacerPrototype
