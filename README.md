@@ -17,7 +17,7 @@ This is a sequel to the Godot 2.x repository found [here](https://github.com/Tut
 
 [**3D racing game**](https://github.com/Zireael07/FreeRoamRoguelikeRacerPrototype)
 
-[**2D dungeon game**](https://github.com/oxben/Dungeon
+[**2D dungeon game**](https://github.com/oxben/Dungeon)
 
 [**Sponza Demo**](https://github.com/Calinou/godot-sponza)
 Note: This one can freeze your computer.
