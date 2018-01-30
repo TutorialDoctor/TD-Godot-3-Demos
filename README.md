@@ -28,3 +28,6 @@ https://github.com/oxben/Dungeon
 
 **Sponza Demo**
 https://github.com/Calinou/godot-sponza
+
+**Pony 3D Model Test**
+https://github.com/Calinou/godot-mlp-models
