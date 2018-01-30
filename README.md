@@ -26,3 +26,5 @@ https://github.com/Zireael07/FreeRoamRoguelikeRacerPrototype
 **2D dungeon game**
 https://github.com/oxben/Dungeon
 
+**Sponza Demo**
+https://github.com/Calinou/godot-sponza
