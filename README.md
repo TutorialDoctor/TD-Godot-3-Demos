@@ -16,8 +16,6 @@ Tutorial: https://www.youtube.com/watch?v=Mxuj7fjKvbI
 
 ## [**2D Tank Battle**](https://github.com/kidscancode/Godot3_tanks)
 
-## [**Flappy Birds**](~~https://github.com/microlabig/FlappyBirds_godot3_0~~)
-
 ## [**Demo for learning**](https://github.com/gattila/gamedemo)
 
 ## [**3D racing game**](https://github.com/Zireael07/FreeRoamRoguelikeRacerPrototype)
@@ -29,3 +27,5 @@ Note: This one can freeze your computer.
 
 [Pony 3D Model Test](https://github.com/Calinou/godot-mlp-models)
 Note: This one can freeze your computer.
+
+## [**Flappy Birds**](~~https://github.com/microlabig/FlappyBirds_godot3_0~~)
