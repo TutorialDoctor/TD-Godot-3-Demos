@@ -5,6 +5,8 @@ This is a sequel to the Godot 2.x repository found [here](https://github.com/Tut
 
 ## Other Demos
 
+[FPS](https://github.com/TwistedTwigleg/Godot_FPS_Tutorial/tree/part_3)
+
 [**Dodge the Creeps**](https://github.com/kidscancode/Godot3_dodge)
 
 [**Test Projects**](https://github.com/BastiaanOlij/godot3_test_projects)
