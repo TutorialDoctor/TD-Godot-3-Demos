@@ -1,0 +1,32 @@
+[remap]
+
+importer="texture"
+type="StreamTexture"
+path="res://.import/plx-2.png-73cbd1ea18e5f03355129932230a3ae6.stex"
+
+[deps]
+
+source_file="res://Sprites/Characters/Jungle Asset Pack/parallax background/plx-2.png"
+source_md5="53d9e937ac94613d7d408fcc50fa67c7"
+
+dest_files=[ "res://.import/plx-2.png-73cbd1ea18e5f03355129932230a3ae6.stex" ]
+dest_md5="2f8df4cb0873c236ba3ae3cf323168de"
+
+[params]
+
+compress/mode=0
+compress/lossy_quality=0.7
+compress/hdr_mode=0
+compress/normal_map=0
+flags/repeat=0
+flags/filter=true
+flags/mipmaps=false
+flags/anisotropic=false
+flags/srgb=2
+process/fix_alpha_border=true
+process/premult_alpha=false
+process/HDR_as_SRGB=false
+stream=false
+size_limit=0
+detect_3d=true
+svg/scale=1.0

@@ -1,0 +1,32 @@
+[remap]
+
+importer="texture"
+type="StreamTexture"
+path="res://.import/landing.png-470a7e64c026e3c0a91479c3e09db655.stex"
+
+[deps]
+
+source_file="res://Sprites/Characters/Jungle Asset Pack/Character/sprites/landing.png"
+source_md5="407b59fafdbb3557f40aaf2ce6dd8dfb"
+
+dest_files=[ "res://.import/landing.png-470a7e64c026e3c0a91479c3e09db655.stex" ]
+dest_md5="75139758b39ca32877d0d4a62e295caa"
+
+[params]
+
+compress/mode=0
+compress/lossy_quality=0.7
+compress/hdr_mode=0
+compress/normal_map=0
+flags/repeat=0
+flags/filter=true
+flags/mipmaps=false
+flags/anisotropic=false
+flags/srgb=2
+process/fix_alpha_border=true
+process/premult_alpha=false
+process/HDR_as_SRGB=false
+stream=false
+size_limit=0
+detect_3d=true
+svg/scale=1.0

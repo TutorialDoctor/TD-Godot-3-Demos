@@ -1,0 +1,32 @@
+[remap]
+
+importer="texture"
+type="StreamTexture"
+path="res://.import/mockup.png-92406903a66ea7133a35c036de05c917.stex"
+
+[deps]
+
+source_file="res://Sprites/Characters/Jungle Asset Pack/mockup.png"
+source_md5="30e7f58800bcdb35cb27fc846c58f15b"
+
+dest_files=[ "res://.import/mockup.png-92406903a66ea7133a35c036de05c917.stex" ]
+dest_md5="c7e0661f15908554671e726e76b3d82e"
+
+[params]
+
+compress/mode=0
+compress/lossy_quality=0.7
+compress/hdr_mode=0
+compress/normal_map=0
+flags/repeat=0
+flags/filter=true
+flags/mipmaps=false
+flags/anisotropic=false
+flags/srgb=2
+process/fix_alpha_border=true
+process/premult_alpha=false
+process/HDR_as_SRGB=false
+stream=false
+size_limit=0
+detect_3d=true
+svg/scale=1.0

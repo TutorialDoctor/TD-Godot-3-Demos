@@ -1,0 +1,32 @@
+[remap]
+
+importer="texture"
+type="StreamTexture"
+path="res://.import/idle_01.png-62b68885b6a15b85ea88ea611b1ce03f.stex"
+
+[deps]
+
+source_file="res://Sprites/Characters/Jungle Asset Pack/Animations/idle/idle_01.png"
+source_md5="35d3d65e7b8f9941ca86dc8f70dae06c"
+
+dest_files=[ "res://.import/idle_01.png-62b68885b6a15b85ea88ea611b1ce03f.stex" ]
+dest_md5="d910061d7f05add439e6421d09e23b9c"
+
+[params]
+
+compress/mode=0
+compress/lossy_quality=0.7
+compress/hdr_mode=0
+compress/normal_map=0
+flags/repeat=0
+flags/filter=true
+flags/mipmaps=false
+flags/anisotropic=false
+flags/srgb=2
+process/fix_alpha_border=true
+process/premult_alpha=false
+process/HDR_as_SRGB=false
+stream=false
+size_limit=0
+detect_3d=true
+svg/scale=1.0

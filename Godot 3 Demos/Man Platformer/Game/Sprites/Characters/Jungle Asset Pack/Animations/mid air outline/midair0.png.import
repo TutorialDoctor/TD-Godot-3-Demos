@@ -1,0 +1,32 @@
+[remap]
+
+importer="texture"
+type="StreamTexture"
+path="res://.import/midair0.png-c9ad7cd0dc5d645f0e48d236feb0f7ca.stex"
+
+[deps]
+
+source_file="res://Sprites/Characters/Jungle Asset Pack/Animations/mid air outline/midair0.png"
+source_md5="c59ad04484cb9962bfb5e446696fae86"
+
+dest_files=[ "res://.import/midair0.png-c9ad7cd0dc5d645f0e48d236feb0f7ca.stex" ]
+dest_md5="66b3adcbcbe4c1f2fdba2082cd1ce36e"
+
+[params]
+
+compress/mode=0
+compress/lossy_quality=0.7
+compress/hdr_mode=0
+compress/normal_map=0
+flags/repeat=0
+flags/filter=true
+flags/mipmaps=false
+flags/anisotropic=false
+flags/srgb=2
+process/fix_alpha_border=true
+process/premult_alpha=false
+process/HDR_as_SRGB=false
+stream=false
+size_limit=0
+detect_3d=true
+svg/scale=1.0

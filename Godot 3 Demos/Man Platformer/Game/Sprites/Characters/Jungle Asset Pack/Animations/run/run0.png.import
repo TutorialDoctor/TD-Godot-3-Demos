@@ -1,0 +1,32 @@
+[remap]
+
+importer="texture"
+type="StreamTexture"
+path="res://.import/run0.png-544ef9ab871f3b4ec46dabec6110a178.stex"
+
+[deps]
+
+source_file="res://Sprites/Characters/Jungle Asset Pack/Animations/run/run0.png"
+source_md5="6fa822a02e53fcccb99ad14a50a3c159"
+
+dest_files=[ "res://.import/run0.png-544ef9ab871f3b4ec46dabec6110a178.stex" ]
+dest_md5="7900ea5dff07c1a66e91e9d9bf4adb1a"
+
+[params]
+
+compress/mode=0
+compress/lossy_quality=0.7
+compress/hdr_mode=0
+compress/normal_map=0
+flags/repeat=0
+flags/filter=true
+flags/mipmaps=false
+flags/anisotropic=false
+flags/srgb=2
+process/fix_alpha_border=true
+process/premult_alpha=false
+process/HDR_as_SRGB=false
+stream=false
+size_limit=0
+detect_3d=true
+svg/scale=1.0

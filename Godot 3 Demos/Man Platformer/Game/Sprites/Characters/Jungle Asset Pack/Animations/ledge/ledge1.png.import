@@ -1,0 +1,32 @@
+[remap]
+
+importer="texture"
+type="StreamTexture"
+path="res://.import/ledge1.png-d27c7d33ac97ab0b4b8ba7ad875daee7.stex"
+
+[deps]
+
+source_file="res://Sprites/Characters/Jungle Asset Pack/Animations/ledge/ledge1.png"
+source_md5="98b2dcc6e9f4b455d4c14605ee79d9a6"
+
+dest_files=[ "res://.import/ledge1.png-d27c7d33ac97ab0b4b8ba7ad875daee7.stex" ]
+dest_md5="f17d26bf14beac4ae3290ed39ea39426"
+
+[params]
+
+compress/mode=0
+compress/lossy_quality=0.7
+compress/hdr_mode=0
+compress/normal_map=0
+flags/repeat=0
+flags/filter=true
+flags/mipmaps=false
+flags/anisotropic=false
+flags/srgb=2
+process/fix_alpha_border=true
+process/premult_alpha=false
+process/HDR_as_SRGB=false
+stream=false
+size_limit=0
+detect_3d=true
+svg/scale=1.0

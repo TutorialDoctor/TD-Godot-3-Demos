@@ -1,0 +1,18 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/Greenery.ogg-988b16d7aa15f13cfbb24be2f4c55328.oggstr"
+
+[deps]
+
+source_file="res://Music/Greenery.ogg"
+source_md5="9d5230a769a7d7add856c22289de15da"
+
+dest_files=[ "res://.import/Greenery.ogg-988b16d7aa15f13cfbb24be2f4c55328.oggstr" ]
+dest_md5="7f1d2e4a8e6ee493edff9e5f5912911e"
+
+[params]
+
+loop=true
+loop_offset=0

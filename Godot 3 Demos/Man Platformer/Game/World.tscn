@@ -1,0 +1,368 @@
+[gd_scene load_steps=41 format=2]
+
+[ext_resource path="res://Music/Greenery.ogg" type="AudioStream" id=1]
+[ext_resource path="res://Sprites/Environment/clouds.png" type="Texture" id=2]
+[ext_resource path="res://Sprites/Environment/far-grounds.png" type="Texture" id=3]
+[ext_resource path="res://Scripts/Player.gd" type="Script" id=4]
+[ext_resource path="res://Sprites/Characters/Jungle Asset Pack/Animations/idle/idle_00.png" type="Texture" id=5]
+[ext_resource path="res://Sprites/Characters/Jungle Asset Pack/Animations/idle/idle_01.png" type="Texture" id=6]
+[ext_resource path="res://Sprites/Characters/Jungle Asset Pack/Animations/idle/idle_02.png" type="Texture" id=7]
+[ext_resource path="res://Sprites/Characters/Jungle Asset Pack/Animations/idle/idle_03.png" type="Texture" id=8]
+[ext_resource path="res://Sprites/Characters/Jungle Asset Pack/Animations/idle/idle_04.png" type="Texture" id=9]
+[ext_resource path="res://Sprites/Characters/Jungle Asset Pack/Animations/idle/idle_05.png" type="Texture" id=10]
+[ext_resource path="res://Sprites/Characters/Jungle Asset Pack/Animations/idle/idle_06.png" type="Texture" id=11]
+[ext_resource path="res://Sprites/Characters/Jungle Asset Pack/Animations/idle/idle_07.png" type="Texture" id=12]
+[ext_resource path="res://Sprites/Characters/Jungle Asset Pack/Animations/idle/idle_08.png" type="Texture" id=13]
+[ext_resource path="res://Sprites/Characters/Jungle Asset Pack/Animations/idle/idle_09.png" type="Texture" id=14]
+[ext_resource path="res://Sprites/Characters/Jungle Asset Pack/Animations/idle/idle_10.png" type="Texture" id=15]
+[ext_resource path="res://Sprites/Characters/Jungle Asset Pack/Animations/idle/idle_11.png" type="Texture" id=16]
+[ext_resource path="res://Sprites/Characters/Jungle Asset Pack/Animations/run/run0.png" type="Texture" id=17]
+[ext_resource path="res://Sprites/Characters/Jungle Asset Pack/Animations/run/run1.png" type="Texture" id=18]
+[ext_resource path="res://Sprites/Characters/Jungle Asset Pack/Animations/run/run2.png" type="Texture" id=19]
+[ext_resource path="res://Sprites/Characters/Jungle Asset Pack/Animations/run/run3.png" type="Texture" id=20]
+[ext_resource path="res://Sprites/Characters/Jungle Asset Pack/Animations/run/run4.png" type="Texture" id=21]
+[ext_resource path="res://Sprites/Characters/Jungle Asset Pack/Animations/run/run5.png" type="Texture" id=22]
+[ext_resource path="res://Sprites/Characters/Jungle Asset Pack/Animations/run/run6.png" type="Texture" id=23]
+[ext_resource path="res://Sprites/Characters/Jungle Asset Pack/Animations/run/run7.png" type="Texture" id=24]
+[ext_resource path="res://Sprites/Characters/Jungle Asset Pack/Animations/landing.png" type="Texture" id=25]
+[ext_resource path="res://Sprites/Characters/Jungle Asset Pack/Animations/ledge/ledge0.png" type="Texture" id=26]
+[ext_resource path="res://Sprites/Characters/Jungle Asset Pack/Animations/ledge/ledge1.png" type="Texture" id=27]
+[ext_resource path="res://Sprites/Characters/Jungle Asset Pack/Animations/ledge/ledge2.png" type="Texture" id=28]
+[ext_resource path="res://Sprites/Characters/Jungle Asset Pack/Animations/ledge/ledge3.png" type="Texture" id=29]
+[ext_resource path="res://Sprites/Characters/Jungle Asset Pack/Animations/ledge/ledge4.png" type="Texture" id=30]
+[ext_resource path="res://Sprites/Characters/Jungle Asset Pack/Animations/ledge/ledge5.png" type="Texture" id=31]
+[ext_resource path="res://Sprites/Characters/Jungle Asset Pack/Animations/mid air outline/midair0.png" type="Texture" id=32]
+[ext_resource path="res://Sprites/Characters/Jungle Asset Pack/Animations/mid air outline/midair1.png" type="Texture" id=33]
+[ext_resource path="res://Sprites/Characters/Jungle Asset Pack/Animations/jump.png" type="Texture" id=34]
+[ext_resource path="res://Music/sfx/jump.wav" type="AudioStream" id=35]
+[ext_resource path="res://Sprites/Environment/tileset.png" type="Texture" id=36]
+
+[sub_resource type="SpriteFrames" id=1]
+
+animations = [ {
+"frames": [ ExtResource( 5 ), ExtResource( 6 ), ExtResource( 7 ), ExtResource( 8 ), ExtResource( 9 ), ExtResource( 10 ), ExtResource( 11 ), ExtResource( 12 ), ExtResource( 13 ), ExtResource( 14 ), ExtResource( 15 ), ExtResource( 16 ) ],
+"loop": true,
+"name": "idle",
+"speed": 24.0
+}, {
+"frames": [ ExtResource( 17 ), ExtResource( 18 ), ExtResource( 19 ), ExtResource( 20 ), ExtResource( 21 ), ExtResource( 22 ), ExtResource( 23 ), ExtResource( 24 ) ],
+"loop": true,
+"name": "run",
+"speed": 18.0
+}, {
+"frames": [ ExtResource( 25 ) ],
+"loop": true,
+"name": "land",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 26 ), ExtResource( 27 ), ExtResource( 28 ), ExtResource( 29 ), ExtResource( 30 ), ExtResource( 31 ) ],
+"loop": true,
+"name": "ledge",
+"speed": 8.0
+}, {
+"frames": [ ExtResource( 32 ), ExtResource( 33 ) ],
+"loop": true,
+"name": "air",
+"speed": 8.0
+}, {
+"frames": [ ExtResource( 34 ) ],
+"loop": true,
+"name": "jump",
+"speed": 5.0
+} ]
+
+[sub_resource type="RectangleShape2D" id=2]
+
+custom_solver_bias = 0.0
+extents = Vector2( 10, 10 )
+
+[sub_resource type="RectangleShape2D" id=3]
+
+custom_solver_bias = 0.0
+extents = Vector2( 10, 10 )
+
+[sub_resource type="RectangleShape2D" id=4]
+
+custom_solver_bias = 0.0
+extents = Vector2( 10, 10 )
+
+[node name="World" type="Node2D" index="0"]
+
+[node name="Music" type="AudioStreamPlayer2D" parent="." index="0"]
+
+stream = ExtResource( 1 )
+volume_db = 0.0
+autoplay = true
+max_distance = 2000.0
+attenuation = 1.0
+bus = "Master"
+area_mask = 1
+
+[node name="clouds" type="Sprite" parent="." index="1"]
+
+position = Vector2( -679.923, -662.552 )
+texture = ExtResource( 2 )
+
+[node name="clouds2" type="Sprite" parent="clouds" index="0"]
+
+position = Vector2( 4096.91, -191.073 )
+texture = ExtResource( 2 )
+
+[node name="farground" type="Sprite" parent="." index="2"]
+
+position = Vector2( -51.7521, -147.514 )
+texture = ExtResource( 3 )
+
+[node name="Player" type="RigidBody2D" parent="." index="3"]
+
+editor/display_folded = true
+position = Vector2( -410, -2370 )
+input_pickable = false
+collision_layer = 1
+collision_mask = 1
+mode = 2
+mass = 1.0
+friction = 1.0
+bounce = 0.0
+gravity_scale = 20.0
+custom_integrator = false
+continuous_cd = 0
+contacts_reported = 0
+contact_monitor = false
+sleeping = false
+can_sleep = true
+linear_velocity = Vector2( 0, 0 )
+linear_damp = -1.0
+angular_velocity = 0.0
+angular_damp = -1.0
+script = ExtResource( 4 )
+
+[node name="Sprite" type="AnimatedSprite" parent="Player" index="0"]
+
+frames = SubResource( 1 )
+animation = "air"
+playing = true
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="Shape" type="CollisionShape2D" parent="Player" index="1"]
+
+position = Vector2( -3.39488, 7.65903 )
+scale = Vector2( 4.65343, 11.8503 )
+shape = SubResource( 2 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="Camera" type="Camera2D" parent="Player" index="2"]
+
+position = Vector2( -4.94165, -175.308 )
+anchor_mode = 1
+rotating = false
+current = true
+zoom = Vector2( 4, 4 )
+limit_left = -10000000
+limit_top = -10000000
+limit_right = 10000000
+limit_bottom = 10000000
+limit_smoothed = false
+drag_margin_h_enabled = true
+drag_margin_v_enabled = true
+smoothing_enabled = true
+smoothing_speed = 5.0
+offset_v = 0.0
+offset_h = 0.0
+drag_margin_left = 0.2
+drag_margin_top = 0.2
+drag_margin_right = 0.2
+drag_margin_bottom = 0.2
+editor_draw_screen = true
+editor_draw_limits = false
+editor_draw_drag_margin = false
+_sections_unfolded = [ "Smoothing" ]
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="Feet" type="RayCast2D" parent="Player" index="3"]
+
+position = Vector2( -2.83862, 48.8243 )
+enabled = false
+exclude_parent = true
+cast_to = Vector2( 0, 100 )
+collision_mask = 1
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="jump" type="AudioStreamPlayer2D" parent="Player" index="4"]
+
+stream = ExtResource( 35 )
+volume_db = -20.0
+autoplay = false
+max_distance = 2000.0
+attenuation = 1.0
+bus = "Master"
+area_mask = 1
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="Grounds" type="StaticBody2D" parent="." index="4"]
+
+editor/display_folded = true
+position = Vector2( 192.523, 321.168 )
+input_pickable = false
+collision_layer = 1
+collision_mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="Sprite" type="Sprite" parent="Grounds" index="0"]
+
+texture = ExtResource( 36 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Grounds" index="1"]
+
+position = Vector2( -452.02, -808.525 )
+scale = Vector2( 53.5326, 11.1405 )
+shape = SubResource( 3 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="CollisionShape2D2" type="CollisionShape2D" parent="Grounds" index="2"]
+
+position = Vector2( -2129.13, 350.34 )
+scale = Vector2( 110.289, 11.1405 )
+shape = SubResource( 3 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="CollisionShape2D3" type="CollisionShape2D" parent="Grounds" index="3"]
+
+position = Vector2( -3010.87, -904.45 )
+scale = Vector2( 37.9565, 11.1405 )
+shape = SubResource( 3 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="CollisionShape2D4" type="CollisionShape2D" parent="Grounds" index="4"]
+
+position = Vector2( -101.319, 328.759 )
+scale = Vector2( 77.2759, 11.1405 )
+shape = SubResource( 3 )
+
+[node name="CollisionShape2D5" type="CollisionShape2D" parent="Grounds" index="5"]
+
+position = Vector2( 2681.28, 1047.69 )
+scale = Vector2( 14.3595, 11.1405 )
+shape = SubResource( 3 )
+
+[node name="CollisionShape2D6" type="CollisionShape2D" parent="Grounds" index="6"]
+
+position = Vector2( 1400.54, 749.796 )
+scale = Vector2( 14.3595, 11.1405 )
+shape = SubResource( 3 )
+
+[node name="CollisionShape2D7" type="CollisionShape2D" parent="Grounds" index="7"]
+
+position = Vector2( 1538.03, 491.039 )
+scale = Vector2( 51.3632, 11.1405 )
+shape = SubResource( 3 )
+
+[node name="CollisionShape2D8" type="CollisionShape2D" parent="Grounds" index="8"]
+
+position = Vector2( 691.743, -715.77 )
+scale = Vector2( 10.5173, 11.1405 )
+shape = SubResource( 3 )
+
+[node name="CollisionShape2D9" type="CollisionShape2D" parent="Grounds" index="9"]
+
+position = Vector2( 1279.93, -713.595 )
+scale = Vector2( 14.9498, 11.1405 )
+shape = SubResource( 3 )
+
+[node name="CollisionShape2D10" type="CollisionShape2D" parent="Grounds" index="10"]
+
+position = Vector2( 1986.62, -781.003 )
+scale = Vector2( 18.9642, 11.1405 )
+shape = SubResource( 3 )
+
+[node name="CollisionShape2D11" type="CollisionShape2D" parent="Grounds" index="11"]
+
+position = Vector2( 2430.2, -781.003 )
+scale = Vector2( 12.7754, 11.1405 )
+shape = SubResource( 3 )
+
+[node name="CollisionShape2D12" type="CollisionShape2D" parent="Grounds" index="12"]
+
+position = Vector2( 3071.66, -789.701 )
+scale = Vector2( 12.7754, 11.1405 )
+shape = SubResource( 3 )
+
+[node name="CollisionShape2D13" type="CollisionShape2D" parent="Grounds" index="13"]
+
+position = Vector2( 2584.58, -400.477 )
+scale = Vector2( 12.7754, 11.1405 )
+shape = SubResource( 3 )
+
+[node name="CollisionShape2D14" type="CollisionShape2D" parent="Grounds" index="14"]
+
+position = Vector2( 2930.32, -404.826 )
+scale = Vector2( 12.7754, 11.1405 )
+shape = SubResource( 3 )
+
+[node name="CollisionShape2D15" type="CollisionShape2D" parent="Grounds" index="15"]
+
+position = Vector2( 890.703, -309.151 )
+scale = Vector2( 15.7862, 11.1405 )
+shape = SubResource( 3 )
+
+[node name="CollisionShape2D16" type="CollisionShape2D" parent="Grounds" index="16"]
+
+position = Vector2( -1607.07, 75.7227 )
+scale = Vector2( 7.47315, 11.1405 )
+shape = SubResource( 3 )
+
+[node name="CollisionShape2D17" type="CollisionShape2D" parent="Grounds" index="17"]
+
+position = Vector2( -2423.35, -169.988 )
+scale = Vector2( 11.5879, 11.1405 )
+shape = SubResource( 3 )
+
+[node name="bounds" type="StaticBody2D" parent="." index="5"]
+
+editor/display_folded = true
+position = Vector2( -591.058, 1706.04 )
+scale = Vector2( 3.9425, 1 )
+input_pickable = false
+collision_layer = 1
+collision_mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+_sections_unfolded = [ "Pickable" ]
+
+[node name="shape" type="CollisionShape2D" parent="bounds" index="0"]
+
+position = Vector2( -107.182, -120.697 )
+scale = Vector2( 95.2006, 7.18284 )
+shape = SubResource( 4 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+
