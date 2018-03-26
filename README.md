@@ -5,6 +5,7 @@ This is a sequel to the Godot 2.x repository found [here](https://github.com/Tut
 
 ## Other Demos
 
+[Doom](https://github.com/HooniusDev/GoDoM) | *****
 [Prefabs](https://github.com/yaelatletl/RAD-for-Godot/tree/dev) |
 [Demo Video](https://www.youtube.com/watch?v=zlBpxQw3WfM&t=29s) | *****
 
