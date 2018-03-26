@@ -6,15 +6,15 @@ This is a sequel to the Godot 2.x repository found [here](https://github.com/Tut
 ## Other Demos
 
 [Prefabs](https://github.com/yaelatletl/RAD-for-Godot/tree/dev) |
-[Demo](https://www.youtube.com/watch?v=zlBpxQw3WfM&t=29s) | *****
+[Demo Video](https://www.youtube.com/watch?v=zlBpxQw3WfM&t=29s) | *****
 
 [3rd Person](https://www.patreon.com/file?h=17198150&i=1912846) |
-[Tutorial](https://www.youtube.com/watch?v=-CudxS6EeNA&list=PLboXykqtm8dwsSwt9Mc67clLIlvyL1ySW&index=4)
+[Tutorial Video](https://www.youtube.com/watch?v=-CudxS6EeNA&list=PLboXykqtm8dwsSwt9Mc67clLIlvyL1ySW&index=4)
 
 [FPS](https://github.com/TwistedTwigleg/Godot_FPS_Tutorial/tree/part_3)
 
 [FPS](https://github.com/turtletooth/GodotFirstPersonController) |
-[Tutorial](https://www.youtube.com/watch?v=Mxuj7fjKvbI) | *****
+[Tutorial Video](https://www.youtube.com/watch?v=Mxuj7fjKvbI) | *****
 
 [Dodge the Creeps](https://github.com/kidscancode/Godot3_dodge)
 
