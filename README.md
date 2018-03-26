@@ -16,24 +16,24 @@ This is a sequel to the Godot 2.x repository found [here](https://github.com/Tut
 [FPS](https://github.com/turtletooth/GodotFirstPersonController) |
 [Tutorial](https://www.youtube.com/watch?v=Mxuj7fjKvbI)
 
-[**Dodge the Creeps**](https://github.com/kidscancode/Godot3_dodge)
+[Dodge the Creeps](https://github.com/kidscancode/Godot3_dodge)
 
-[**Test Projects**](https://github.com/BastiaanOlij/godot3_test_projects)
+[Test Projects](https://github.com/BastiaanOlij/godot3_test_projects)
 
-[**2D Tank Battle**](https://github.com/kidscancode/Godot3_tanks)
+[2D Tank Battle](https://github.com/kidscancode/Godot3_tanks)
 
-[**Demo for learning**](https://github.com/gattila/gamedemo)
+[Demo for learning](https://github.com/gattila/gamedemo)
 
-[**3D racing game**](https://github.com/Zireael07/FreeRoamRoguelikeRacerPrototype)
+[3D racing game](https://github.com/Zireael07/FreeRoamRoguelikeRacerPrototype)
 
-[**2D dungeon game**](https://github.com/oxben/Dungeon)
+[2D dungeon game](https://github.com/oxben/Dungeon)
 
-[**Sponza Demo**](https://github.com/Calinou/godot-sponza)
+[Sponza Demo](https://github.com/Calinou/godot-sponza)
 Note: This one can freeze your computer.
 
 [Pony 3D Model Test](https://github.com/Calinou/godot-mlp-models)
 Note: This one can freeze your computer.
 
-[**Flappy Birds**](~~https://github.com/microlabig/FlappyBirds_godot3_0~~)
+[Flappy Birds](~~https://github.com/microlabig/FlappyBirds_godot3_0~~)
 
 [Starfox](https://github.com/DevMagicLord/Godot3)
