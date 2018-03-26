@@ -1,7 +1,7 @@
 # TD-Godot-3-Demos
 A collection of game demos for Godot 3
 
-This is a sequel to the Godot 2.x repository found [here](https://github.com/TutorialDoctor/TD-Godot-Games). star ratings included.
+This is a sequel to the Godot 2.x repository found [here](https://github.com/TutorialDoctor/TD-Godot-Games). Star ratings included.
 
 ## Other Demos
 
