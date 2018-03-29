@@ -40,4 +40,6 @@ Note: This one can freeze your computer.
 
 [Starfox](https://github.com/DevMagicLord/Godot3)
 
-[2D Bunny Platformer](https://github.com/SecretGodotProject/1_Bunny_Think)
+[2D Bunny Platformer](https://github.com/SecretGodotProject/1_Bunny_Think) | ****
+
+[3D Football/Soccer Game](https://github.com/richardschembri/GodotBasic3DFootball)
