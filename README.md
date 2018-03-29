@@ -39,3 +39,5 @@ Note: This one can freeze your computer.
 [Flappy Birds](~~https://github.com/microlabig/FlappyBirds_godot3_0~~)
 
 [Starfox](https://github.com/DevMagicLord/Godot3)
+
+[2D Bunny Platformer](https://github.com/SecretGodotProject/1_Bunny_Think)
