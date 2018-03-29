@@ -43,3 +43,5 @@ Note: This one can freeze your computer.
 [2D Bunny Platformer](https://github.com/SecretGodotProject/1_Bunny_Think) | ****
 
 [3D Football/Soccer Game](https://github.com/richardschembri/GodotBasic3DFootball)
+
+[Simple PixelArt Platformer](https://github.com/Timofffee/BooBiBo) | *****
