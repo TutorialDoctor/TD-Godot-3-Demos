@@ -45,3 +45,5 @@ Note: This one can freeze your computer.
 [3D Football/Soccer Game](https://github.com/richardschembri/GodotBasic3DFootball)
 
 [Simple PixelArt Platformer](https://github.com/Timofffee/BooBiBo) | *****
+
+[Full 2D Platformer](https://github.com/securas/Daisy_Dangerous) ****
