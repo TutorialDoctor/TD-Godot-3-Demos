@@ -5,6 +5,8 @@ This is a sequel to the Godot 2.x repository found [here](https://github.com/Tut
 
 ## Other Demos
 
+[2D Arcade Space Shooter](https://github.com/V-ktor/hull-breach) | ****
+
 [Doom](https://github.com/HooniusDev/GoDoM) | *****
 
 [Prefabs](https://github.com/yaelatletl/RAD-for-Godot/tree/dev) |
