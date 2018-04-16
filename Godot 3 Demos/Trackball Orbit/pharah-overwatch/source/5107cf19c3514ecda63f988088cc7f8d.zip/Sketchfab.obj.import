@@ -1,0 +1,20 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/Sketchfab.obj-b2ca5ee21cc1187d0f5bc377c3f8d6bd.mesh"
+
+[deps]
+
+files=[ "res://.import/Sketchfab.obj-b2ca5ee21cc1187d0f5bc377c3f8d6bd.mesh" ]
+
+source_file="res://pharah-overwatch/source/5107cf19c3514ecda63f988088cc7f8d.zip/Sketchfab.obj"
+source_md5="6c3e540645d5e64047ed36f6976ea3e4"
+
+dest_files=[ "res://.import/Sketchfab.obj-b2ca5ee21cc1187d0f5bc377c3f8d6bd.mesh", "res://.import/Sketchfab.obj-b2ca5ee21cc1187d0f5bc377c3f8d6bd.mesh" ]
+dest_md5="dbc4cc91302208a817c7a5dbf0416030"
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
