@@ -22,4 +22,12 @@ func _process(delta):
 func recolor(mat,col):
 	picker_color = col.get_pick_color()
 	mat.albedo_color = picker_color
+	"""
+	if picker_color.r <= 1:
+		print('red'+str(picker_color.r))
+	if picker_color.g <=1:
+		print('green'+str(picker_color.g))
+	if picker_color.b <= 1:
+		print('blue'+str(picker_color.b))"""
+
 	
