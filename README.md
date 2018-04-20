@@ -52,4 +52,4 @@ Note: This one can freeze your computer.
 
 [Tetris Clone](https://bitbucket.org/backend-coder/tetron/src)
 
-[3D Mech Game](https://www.youtube.com/watch?v=hpajjoXDvgQ) | ***
+[3D Mech Game](https://www.youtube.com/watch?v=hpajjoXDvgQ) | *****
