@@ -53,3 +53,9 @@ Note: This one can freeze your computer.
 [Tetris Clone](https://bitbucket.org/backend-coder/tetron/src)
 
 [3D Mech Game](https://www.youtube.com/watch?v=hpajjoXDvgQ) | *****
+
+## Add-Ons & Scripts
+
+[Sketchfab Importer](https://github.com/sketchfab/godot-plugin)
+[3d Camera Control](https://github.com/Maujoe/godot-camera-control)
+[Softbody Physics](https://github.com/Bauxitedev/godot-jigglebones)
