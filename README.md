@@ -54,6 +54,8 @@ Note: This one can freeze your computer.
 
 [3D Mech Game](https://www.youtube.com/watch?v=hpajjoXDvgQ) | *****
 
+[Pixel Platformer](https://github.com/securas/Crackshot) ****
+
 ## Add-Ons & Scripts
 
 [Sketchfab Importer](https://github.com/sketchfab/godot-plugin)
