@@ -6,7 +6,8 @@ path="res://.import/speech-bubble-md.png-eb94a28c6acdcae6a6bf9d472badc7e2.stex"
 
 [deps]
 
-source_md5="a555158d26a39aaf4cd9450fbcd3c810"
+source_file="res://speech-bubble-md.png"
+dest_files=[ "res://.import/speech-bubble-md.png-eb94a28c6acdcae6a6bf9d472badc7e2.stex" ]
 
 [params]
 

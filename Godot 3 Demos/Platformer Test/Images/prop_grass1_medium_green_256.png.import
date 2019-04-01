@@ -2,11 +2,12 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/prop_grass1_medium_green_256.png-3ae4de2995e7d3165f5acdfeb822be3a.stex"
+path="res://.import/prop_grass1_medium_green_256.png-ad71cf063a7aa0aad9720dc0c4e2a46e.stex"
 
 [deps]
 
-source_md5="35bc2197c6817978f62139c196f9594f"
+source_file="res://Images/prop_grass1_medium_green_256.png"
+dest_files=[ "res://.import/prop_grass1_medium_green_256.png-ad71cf063a7aa0aad9720dc0c4e2a46e.stex" ]
 
 [params]
 

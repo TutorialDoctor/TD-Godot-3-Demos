@@ -1,6 +1,6 @@
 extends RigidBody2D
 
-export var name = "Kyle"
+export var Name = "Kyle"
 
 func _ready():
 	pass

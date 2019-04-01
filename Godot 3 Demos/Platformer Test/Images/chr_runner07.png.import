@@ -2,11 +2,12 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/chr_runner07.png-e4e0a33d945b0c020628064880a1b1e9.stex"
+path="res://.import/chr_runner07.png-beddd1b02b6482318593f280d9455ed0.stex"
 
 [deps]
 
-source_md5="6f6d4af0c8cec64761efc0316177208b"
+source_file="res://Images/chr_runner07.png"
+dest_files=[ "res://.import/chr_runner07.png-beddd1b02b6482318593f280d9455ed0.stex" ]
 
 [params]
 

@@ -2,11 +2,12 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/tumblr_static_tumblr_static_filename_640.png-cdff75a3277b0872caa0d9e92d10971d.stex"
+path="res://.import/tumblr_static_tumblr_static_filename_640.png-2e1d681a130467d1a874b8128cf2b25d.stex"
 
 [deps]
 
-source_md5="8a87b457fa0c63aee59640cab597986e"
+source_file="res://Images/tumblr_static_tumblr_static_filename_640.png"
+dest_files=[ "res://.import/tumblr_static_tumblr_static_filename_640.png-2e1d681a130467d1a874b8128cf2b25d.stex" ]
 
 [params]
 
