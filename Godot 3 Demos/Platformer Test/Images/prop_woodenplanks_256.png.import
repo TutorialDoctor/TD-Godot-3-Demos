@@ -2,11 +2,12 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/prop_woodenplanks_256.png-908ca2a4e83cd79be41ad00d5bde60d5.stex"
+path="res://.import/prop_woodenplanks_256.png-a38b4b7e0d3f76b7cf785ab9c46940d9.stex"
 
 [deps]
 
-source_md5="73cebe2e4d94a856c9b9d52ade5b84ed"
+source_file="res://Images/prop_woodenplanks_256.png"
+dest_files=[ "res://.import/prop_woodenplanks_256.png-a38b4b7e0d3f76b7cf785ab9c46940d9.stex" ]
 
 [params]
 

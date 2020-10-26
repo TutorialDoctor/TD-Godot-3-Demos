@@ -68,7 +68,7 @@ script = ExtResource( 2 )
 __meta__ = {
 "_edit_lock_": true
 }
-name = "Kyle"
+Name = "Kyle"
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Man" index="0"]
 
@@ -85,7 +85,7 @@ position = Vector2( -5.17072, -4.70895 )
 scale = Vector2( 0.12539, 0.0990613 )
 frames = SubResource( 2 )
 animation = "run"
-frame = 1
+frame = 7
 playing = true
 __meta__ = {
 "_edit_lock_": true
@@ -230,6 +230,7 @@ __meta__ = {
 
 stream = ExtResource( 14 )
 volume_db = 0.0
+pitch_scale = 1.0
 autoplay = true
 max_distance = 2000.0
 attenuation = 1.0
